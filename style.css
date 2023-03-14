@@ -1,0 +1,52 @@
+h1 {
+    font-family: 'Press Start 2P', cursive;
+    display: flex;
+    justify-content: right;
+    padding: 25px;
+}
+
+.logo {
+display: flex;
+justify-content: left;
+align-items:flex-end;
+width: 25%;
+padding: 0;
+}
+
+h2 {
+    font-family: 'Caveat', cursive;
+}
+@import url(//db.onlinewebfonts.com/c/03f087c0a47a904df89455d3f445340b?family=Computer+Speak+v0.3);
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #000;
+  }
+  
+  li {
+    float: center;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  .about a:hover {
+    background-color:red;
+  }
+
+  .work a:hover {
+    background-color: green;
+  }
+
+  .contact a:hover {
+    background-color: aqua;
+  }
+
