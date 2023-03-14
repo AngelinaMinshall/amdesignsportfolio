@@ -1,16 +1,22 @@
 h1 {
     font-family: 'Press Start 2P', cursive;
     display: flex;
-    justify-content: right;
-    padding: 25px;
+    justify-content: center;
+    padding-bottom: 50px;
+    margin: auto;
 }
 
 .logo {
-display: flex;
-justify-content: left;
-align-items:flex-end;
-width: 25%;
-padding: 0;
+    text-align:center;
+    width:20%;
+    display:block;
+    margin:auto;
+    padding: 0;
+}
+
+.aam {
+    display: flex;
+    justify-content: end;
 }
 
 h2 {
@@ -18,6 +24,9 @@ h2 {
 }
 @import url(//db.onlinewebfonts.com/c/03f087c0a47a904df89455d3f445340b?family=Computer+Speak+v0.3);
 
+p {
+    font-family: Arial, sans-serif;
+}
 ul {
     list-style-type: none;
     margin: 0;
@@ -50,3 +59,16 @@ ul {
     background-color: aqua;
   }
 
+  .mepic {
+    width: 75%;
+  }
+
+  .tote {
+    width: 30%;
+  }
+  .Cereal {
+    width: 30%;
+  }
+  .lily {
+    width: 50%;
+  }
