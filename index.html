@@ -14,7 +14,12 @@
 
 <body>
     <main>
-        <img class="logo" src="logo.png" alt="Logo">
+        <section class="socials">
+            <a href="https://www.youtube.com/c/GaGaDing?app=desktop"><img class="youtube" src="youtube.png" alt="youtube"></a>
+            <a href="https://www.linkedin.com/in/angelina-minshall-29182518b?original_referer=https%3A%2F%2Fwww.google.com%2F"><img class="youtube" src="linken.png" alt="link"></a>
+            <a href="https://instagram.com/am_designsofficial?igshid=YmMyMTA2M2Y="><img class="insta" src="insta.png" alt="insta"></a>
+        </section>
+        <img class="logo" src="logo.svg" alt="Logo">
         <section id="hero">
             <h1>Welcome to My Graphic Design Portfolio</h1>
             <header>
@@ -29,15 +34,31 @@
         </section>
         <section id="about">
             <h2 class="aam">About Angelina Minshall</h2>
-            <img class="mepic" src="profile-pic.png" alt="Profile Picture">
-            <p>Hi, my name is Angelina Minshall. I am a Graphic Designer and Front-End Web Developer. I specialize
-                in creating responsive and accessible websites that are both functional and beautiful, as well as creating 
-            designs for a variety of needs. I am currently a student at North Idaho College.</p>
-            <p>When I'm not coding, I enjoy hiking, paddle boarding, and playing video games.</p>
+            <!-- <img class="mepic" src="profile-pic.jpg" alt="Profile Picture"> -->
+            <div class="intro">
+            <p>Hello fellow lover of all things design!</p><p>  My name is Angelina Minshall. I am a Graphic Designer and Front-End Web Developer from North Idaho.</p>
+               <p> I specialize in creating responsive and accessible websites that are both functional and beautiful. In addition to Front-End work, I am responsible for creating designs for published, printed, or electronic media. I am currently a student at North Idaho College.</p> <p> When I'm not coding, I enjoy hiking, paddle boarding, and playing video games.</p>
+
+                <p></p>
+            </div>
+        </section>
+        <section id="skills">
+            <h2>
+                My Skill Set
+            </h2>
+            <p>
+                <ol>
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>Javascript</li>
+                    <li>Adobe Creative Suite</li>
+                    <li>Figma</li>
+                </ol>
+            </p>
         </section>
         <section id="work">
             <h2>My Work</h2>
-            <ul>
+            <ul class="projects">
                 <li>
                     <a href="#">
                         <img class="tote" src="project-1.jpg" alt="Project 1">
@@ -62,7 +83,7 @@
         </section>
         <section id="contact">
             <h2>Contact Me</h2>
-            <form action="#">
+            <form class="contact" action="#">
                 <label for="name">Name:</label>
                 <input type="text" id="name" name="name" required>
                 <label for="email">Email:</label>
