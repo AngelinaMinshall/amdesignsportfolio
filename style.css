@@ -1,4 +1,9 @@
 @import url(//db.onlinewebfonts.com/c/03f087c0a47a904df89455d3f445340b?family=Computer+Speak+v0.3);
+body {
+  width: 100vw;
+  overflow-x: hidden;
+}
+
 h1 {
     font-family: 'Press Start 2P', cursive;
     display: flex;
@@ -99,7 +104,7 @@ ul {
 .contact {
   display: flex;
   justify-content: center;
-  align-items: ;
+ 
 }
 .name {
   color: #eb2127;
@@ -113,9 +118,7 @@ ul {
   color: #00aeef;
   width: 15%;
 }
-.button {
 
-}
 .intro {
   text-align: center; 
   position: relative;
@@ -128,9 +131,8 @@ ul {
   justify-content: space-evenly;
 
 }
-.bluntselfie {
-  width: 50%;
-}
+
+
 ol {
   font-size: 150%;
   display: block;
@@ -161,4 +163,17 @@ ol {
   height: 100px;
   padding: 25px;
   color: white;
+}
+.me3 {
+ width: 50%;
+ display: flex;
+ justify-content: end;
+}
+.footerimages {
+  display: flex;
+  justify-content: space-between;
+  
+}
+.bluntselfie {
+  width: 50%;
 }
