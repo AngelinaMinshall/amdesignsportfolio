@@ -10,7 +10,8 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Caveat&display=swap" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
-</head>
+</head>  <!-- Bootstrap CSS -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 
 <body>
     <main>
@@ -35,6 +36,7 @@
         <section id="about">
             <h2 class="aam">About Angelina Minshall</h2>
             <!-- <img class="mepic" src="profile-pic.jpg" alt="Profile Picture"> -->
+
             <div class="intro">
             <p>Hello fellow lover of all things design!</p><p>  My name is Angelina Minshall. I am a Graphic Designer and Front-End Web Developer from North Idaho.</p>
                <p> I specialize in creating responsive and accessible websites that are both functional and beautiful. In addition to Front-End work, I am responsible for creating designs for published, printed, or electronic media. I am currently a student at North Idaho College.</p> <p> When I'm not coding, I enjoy hiking, paddle boarding, and playing video games.</p>
@@ -43,7 +45,7 @@
             </div>
         </section>
         <section id="skills">
-            <h2>
+            <h2 class="skills">
                 My Skill Set
             </h2>
             <p>
@@ -57,43 +59,35 @@
             </p>
         </section>
         <section id="work">
-            <h2>My Work</h2>
-            <ul class="projects">
-                <li>
-                    <a href="#">
-                        <img class="tote" src="project-1.jpg" alt="Project 1">
-                        <h3>AM Designs Tote Bag</h3>
-                    </a>
-                </li>
-                <li>
-                    <a href="#">
-                        <img class="lily" src="project-3.jpg" alt="Project 3">
-                        <h3>Lily Linocut</h3>
-                    </a>
-                   
-                </li>
-                <li>
-                    <a href="#">
-                        <img class="Cereal" src="project-2.jpg" alt="Project 2">
-                        <h3>Japanese Style Corn Flakes</h3>
-                    </a>
-                   
-                </li>
-            </ul>
+            <h2 class="worked">My Work</h2>
+            <div class="works3">
+           <img class="tote" src="project-1.jpg" alt="tote">
+           <img class="cereal" src="project-2.jpg" alt="cereal">
+           <img class="lily" src="project-3.jpg" alt="lily">
+              </div>
         </section>
         <section id="contact">
-            <h2>Contact Me</h2>
+            <h2 class="contacts">Contact Me</h2>
             <form class="contact" action="#">
+                <div class="name">
                 <label for="name">Name:</label>
                 <input type="text" id="name" name="name" required>
+                </div>
+                <div class="email">
                 <label for="email">Email:</label>
                 <input type="email" id="email" name="email" required>
+                </div>
+                <div class="message"
                 <label for="message">Message:</label>
                 <textarea id="message" name="message" required></textarea>
-                <button type="submit" class="btn">Send Message</button>
+            </div>
+                <button class="button" type="submit" class="btn">Send Message</button>
             </form>
         </section>
     </main>
+    <div class="bluntselfie">
+    <img class="bluntselfie" src="bluntselfie.png" alt="Project 1">
+    </div>
     <footer>
         <p>&copy; 2023 My Portfolio</p>
     </footer>
