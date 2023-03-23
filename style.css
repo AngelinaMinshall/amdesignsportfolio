@@ -80,19 +80,6 @@ ul {
     position: relative;
   }
 
-
-
-  .tote {
-    width: 100%;
-
-  }
-  .Cereal {
-    width: 30%;
-  }
-  .lily {
-    width: 50%;
-  }
-
   h2 {
     display: flex;
     justify-content: center;
@@ -133,13 +120,6 @@ top: 150px;
 
 }
 
-
-ol {
-  font-size: 150%;
-  display: block;
-  display: flex;
-  justify-content: space-around;
-}
 .skills {
   background-color: #eb2127;
   color: white;
@@ -156,8 +136,8 @@ ol {
 .works3 {
   display: flex;
   justify-content: center;
-  justify-content: space-evenly;
-
+  justify-content: space-around;
+  
 }
 .contacts {
   background-color: #00aeef;
@@ -179,4 +159,16 @@ footer {
 }
 .bluntselfie {
   width: 75%;
+}
+.skillz {
+  display: flex;
+  justify-content: center;
+  justify-content: space-around;
+  margin: 100px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.set {
+  font-family: 'Caveat';
+  font-size: 25px;
+  text-decoration: underline;
 }
