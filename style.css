@@ -3,25 +3,23 @@ body {
   width: 100vw;
   overflow-x: hidden;
 }
+.header {
+  display: flex;
+  align-items: center;
+}
 
 h1 {
     font-family: 'Press Start 2P', cursive;
     display: flex;
     text-align: center;
-    justify-content: center;
-    padding-bottom: 50px;
     margin: auto;
     font-size: 30px;
 }
 
 .logo {
-    text-align:center;
-    width:20%;
-    display:block;
-    margin:auto;
-    padding: 0;
-}
-
+    display: flex;
+    justify-content: start; 
+  }
 .aam {
     display: flex;
     justify-content: end;
