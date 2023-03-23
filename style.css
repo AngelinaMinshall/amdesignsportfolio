@@ -26,6 +26,7 @@ h1 {
     display: flex;
     justify-content: end;
     margin-top: 50px;
+    margin-right: 25px;
 }
 
 h2 {
@@ -117,6 +118,7 @@ top: 150px;
 .socials {
   display: flex;
   justify-content: space-evenly;
+  margin-top: 50px;
 
 }
 
@@ -125,6 +127,12 @@ top: 150px;
   color: white;
   height: 100px;
   padding: 25px;
+}
+.edu {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin-bottom: 50px;
 }
 .worked {
   background-color: #8dc440;
