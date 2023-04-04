@@ -150,7 +150,8 @@ top: 150px;
 .works3 {
   display: flex;
   justify-content: center;
-  justify-content: space-around;
+  justify-content: space-between;
+  margin: 50px;
   
 }
 .contacts {
