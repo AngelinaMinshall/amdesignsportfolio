@@ -65,14 +65,17 @@ ul {
   
   .about a:hover {
     background-color: #eb2127;
+    color: white;
   }
 
   .work a:hover {
     background-color: #8dc440;
+    color: white;
   }
 
   .contact a:hover {
     background-color: #00aeef;
+    color: white;
   }
 
   .mepic {
