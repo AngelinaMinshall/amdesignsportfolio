@@ -1,6 +1,6 @@
 @import url(//db.onlinewebfonts.com/c/03f087c0a47a904df89455d3f445340b?family=Computer+Speak+v0.3);
 body {
-  width: 100vw;
+  width: 100%;
   overflow-x: hidden;
 }
 .header {
