@@ -107,13 +107,14 @@ top: 150px;
 
 .intro {
   display: flex;
-  justify-content: center;
+
   text-align: center; 
   width: 900px;
   font-size: 34px;
   flex-direction: column;
+  margin-left: 50px;
 }
-
+ 
 .socials {
   display: flex;
   justify-content: space-evenly;
