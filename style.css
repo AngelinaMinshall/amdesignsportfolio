@@ -121,8 +121,8 @@ top: 150px;
   font-size: 34px;
   display: flex;
   flex-direction: column;
-
 }
+
 .socials {
   display: flex;
   justify-content: space-evenly;
