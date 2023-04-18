@@ -1,6 +1,6 @@
 @import url(//db.onlinewebfonts.com/c/03f087c0a47a904df89455d3f445340b?family=Computer+Speak+v0.3);
 body {
-  width: 100vw;
+  width: 100%;
   overflow-x: hidden;
 }
 .header {
@@ -65,20 +65,24 @@ ul {
   
   .about a:hover {
     background-color: #eb2127;
+    color: white;
   }
 
   .work a:hover {
     background-color: #8dc440;
+    color: white;
+    
   }
 
   .contact a:hover {
     background-color: #00aeef;
+    color: white;
   }
 
   .mepic {
     width: 60%;
     position: relative;
-    margin-bottom: ;
+    
   }
 
   h2 {
@@ -143,8 +147,10 @@ top: 150px;
   background-color: #8dc440;
   height: 100px;
   padding: 25px;
-  margin: 15px;
+  /* margin: 15px; */
   color: white;
+  
+
 }
   
 .works3 {
