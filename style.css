@@ -106,13 +106,13 @@ top: 150px;
 }
 
 .intro {
-  display: flex;
-
-  text-align: center; 
+  display:flex;
+  justify-content: center; 
+  text-align: center;
   width: 900px;
   font-size: 34px;
   flex-direction: column;
-  margin-left: 50px;
+  margin: auto;
 }
  
 .socials {
