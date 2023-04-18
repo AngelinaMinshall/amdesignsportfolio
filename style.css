@@ -36,13 +36,6 @@ h2 {
 p {
     font-family: Arial, sans-serif;
 }
-
-#about {
- background-image: url(profile-pic.jpg);
- background-repeat: no-repeat;
- height: 130vh;
-position: relative;
-}
 ul {
     list-style-type: none;
     margin: 0;
@@ -113,13 +106,11 @@ top: 150px;
 }
 
 .intro {
-  text-align: center; 
-  position: relative;
-  top: 300px;
-  left: 1300px;
-  width: 500px;
-  font-size: 34px;
   display: flex;
+  justify-content: center;
+  text-align: center; 
+  width: 900px;
+  font-size: 34px;
   flex-direction: column;
 
 }
@@ -192,4 +183,8 @@ footer {
   font-family: 'Caveat';
   font-size: 25px;
   text-decoration: underline;
+}
+.headerpic {
+  display: flex;
+  justify-content: center;
 }
