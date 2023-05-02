@@ -1,6 +1,6 @@
 .vercel
-/node_modules
-/assets/css
+node_modules
 package-lock.json
-package.json
-assets/style.css.map 
+public/style.css
+public/style.css.map 
+.DS_Store
