@@ -38,8 +38,6 @@ p {
 }
 ul {
     list-style-type: none;
-    margin: 0;
-    padding: 0;
     overflow: hidden;
     background-color: #000;
   }
@@ -188,4 +186,7 @@ footer {
 .headerpic {
   display: flex;
   justify-content: center;
+}
+ol, ul {
+  padding-left: 0rem;
 }
